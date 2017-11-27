@@ -3,27 +3,19 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_dentinoseguro"
-            android:icon="@drawable/ic_location_on_black_24dp"
-            android:title="Destino seguro" />
-
+            android:id="@+id/nav_contatos"
+            android:icon="@drawable/phone"
+            android:title="@string/nav_content" />
         <item
-            android:id="@+id/nav_dentinoproviderv1"
-            android:icon="@drawable/ic_location_on_black_24dp"
-            android:title="Destino Provider V1" />
-
+            android:id="@+id/nav_preferências"
+            android:icon="@drawable/settings"
+            android:title="@string/nav_settings" />
         <item
-            android:id="@+id/nav_dentinoproviderv2_gps"
-            android:icon="@drawable/ic_location_on_black_24dp"
-            android:title="Destino Provider V2 - GPS" />
-
-        <item
-            android:id="@+id/nav_placeautocompleteactivity"
-            android:icon="@drawable/ic_location_on_black_24dp"
-            android:title="Auto Complete" />
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/nav_logout" />
 
     </group>
-
 
 
 </menu>

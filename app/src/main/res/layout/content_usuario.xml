@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_usuario_nome"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Nome"/>
+    <EditText
+        android:id="@+id/et_usuario_sobrenome"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_usuario_nome"
+        android:layout_marginTop="8dp"
+        android:hint="Sobrenome"/>
+    <EditText
+        android:id="@+id/et_usuario_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_usuario_sobrenome"
+        android:layout_marginTop="8dp"
+        android:hint="Email"/>
+    <EditText
+        android:id="@+id/et_usuario_cidade"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_usuario_email"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="Cidade"/>
+    <EditText
+        android:id="@+id/et_usuario_uf"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_usuario_email"
+        android:layout_toRightOf="@id/et_usuario_cidade"
+        android:layout_marginTop="8dp"
+        android:hint="UF"/>
+    <EditText
+        android:id="@+id/et_usuario_senha"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_usuario_uf"
+        android:inputType="textPassword"
+        android:layout_marginTop="8dp"
+        android:hint="Senha"/>
+
+    <EditText
+        android:id="@+id/et_usuario_sexo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_usuario_uf"
+        android:layout_toRightOf="@+id/et_usuario_senha"
+        android:layout_marginTop="8dp"
+        android:hint="Gênero"/>
+    <EditText
+        android:id="@+id/et_usuario_nascimento"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_usuario_sexo"
+        android:layout_marginTop="8dp"
+        android:hint="Data de Nascimento"/>
+    <EditText
+        android:id="@+id/et_usuario_numero_celular"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_usuario_nascimento"
+        android:layout_marginTop="8dp"
+        android:hint="Numero do celular"/>
+
+    <CheckBox
+        android:id="@+id/et_usuario_receber_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_usuario_numero_celular"
+        android:layout_marginTop="8dp"
+        android:hint="Você deseja receber nossos informativos?"/>
+    <Button
+        android:id="@+id/bt_usuario_cadastro"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_usuario_receber_email"
+        android:layout_marginTop="8dp"
+        android:text="Cadastrar"/>
+
+
+</RelativeLayout>
