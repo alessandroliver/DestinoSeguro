@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/et_acesso_professor_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="CPF" />
+    <EditText
+        android:id="@+id/et_acesso_professor_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_acesso_professor_cpf"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:hint="Senha" />
+    <Button
+        android:id="@+id/bt_acesso_professor_logar"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Logar"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/et_acesso_professor_senha" />
+
+</RelativeLayout>

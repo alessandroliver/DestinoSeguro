@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_cpf_epl"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:text="CPF" />
+    <EditText
+        android:id="@+id/et_cpf_epl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_cpf_epl"
+        android:layout_marginTop="40dp" />
+    <TextView
+        android:id="@+id/tv_de_epl"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/et_cpf_epl"
+        android:layout_marginTop="40dp"
+        android:text="Data Empréstimo" />
+    <EditText
+        android:id="@+id/et_de_epl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_cpf_epl"
+        android:layout_toRightOf="@+id/tv_de_epl"
+        android:layout_marginTop="40dp" />
+    <TextView
+        android:id="@+id/tv_dr_epl"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/tv_de_epl"
+        android:layout_marginTop="40dp"
+        android:text="Data Renovação" />
+    <EditText
+        android:id="@+id/et_dr_epl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_de_epl"
+        android:layout_toRightOf="@+id/tv_dr_epl"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:id="@+id/bt_confirmar_epl"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/et_dr_epl" />
+
+</RelativeLayout>

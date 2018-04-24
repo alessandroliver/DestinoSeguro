@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_nota1_vnd"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Nota 1" />
+    <TextView
+        android:id="@+id/tv_valor1_vnd"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_toRightOf="@+id/tv_nota1_vnd"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tv_nota2_vnd"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tv_valor1_vnd"
+        android:textSize="24dp"
+        android:layout_marginTop="35dp"
+        android:text="Nota 2" />
+    <TextView
+        android:id="@+id/tv_valor2_vnd"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_below="@+id/tv_valor1_vnd"
+        android:layout_toRightOf="@+id/tv_nota2_vnd"
+        android:layout_marginTop="35dp"/>
+    <TextView
+        android:id="@+id/tv_nota3_vnd"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tv_valor2_vnd"
+        android:textSize="24dp"
+        android:layout_marginTop="30dp"
+        android:text="Nota 3" />
+    <TextView
+        android:id="@+id/tv_valor3_vnd"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_below="@+id/tv_valor2_vnd"
+        android:layout_toRightOf="@+id/tv_nota3_vnd"
+        android:layout_marginTop="35dp"/>
+    <TextView
+        android:id="@+id/tv_nota4_vnd"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tv_nota3_vnd"
+        android:textSize="24dp"
+        android:layout_marginTop="35dp"
+        android:text="Nota 4" />
+    <TextView
+        android:id="@+id/tv_valor4_vnd"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tv_valor3_vnd"
+        android:layout_toRightOf="@+id/tv_nota4_vnd"
+        android:layout_marginTop="35dp"/>
+    <TextView
+        android:id="@+id/tv_media_vnd"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tv_nota4_vnd"
+        android:textSize="24dp"
+        android:layout_marginTop="35dp"
+        android:text="Média" />
+    <TextView
+        android:id="@+id/tv_vmedia_vnd"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_below="@+id/tv_nota4_vnd"
+        android:layout_toRightOf="@+id/tv_media_vnd"
+        android:layout_marginTop="35dp"/>
+    <TextView
+        android:id="@+id/tv_falta_vnd"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tv_media_vnd"
+        android:textSize="24dp"
+        android:layout_marginTop="35dp"
+        android:text="Falta" />
+    <TextView
+        android:id="@+id/tv_result_vnd"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_below="@id/tv_vmedia_vnd"
+        android:layout_toRightOf="@+id/tv_falta_vnd"
+        android:layout_marginTop="35dp"/>
+
+</RelativeLayout>
+
