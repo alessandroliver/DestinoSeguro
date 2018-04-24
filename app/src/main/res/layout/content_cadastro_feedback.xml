@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_fb_origem"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Origem"/>
+    <EditText
+        android:id="@+id/et_fb_destino"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fb_origem"
+        android:layout_marginTop="8dp"
+        android:hint="Destino"/>
+    <EditText
+        android:id="@+id/et_fb_qtdalerta"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fb_destino"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="Alertas enviados"/>
+    <EditText
+        android:id="@+id/et_fb_temporota"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fb_destino"
+        android:layout_toRightOf="@+id/et_fb_qtdalerta"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="Tempo Rota"/>
+
+    <EditText
+        android:id="@+id/et_fb_data"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fb_qtdalerta"
+        android:layout_marginTop="8dp"
+        android:hint="Data Rota"/>
+
+    <EditText
+        android:id="@+id/et_fb_horario"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fb_qtdalerta"
+        android:layout_toRightOf="@+id/et_fb_data"
+        android:layout_marginTop="8dp"
+        android:hint="Horário"/>
+
+    <EditText
+        android:id="@+id/et_fb_localAlerta"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fb_data"
+        android:layout_marginTop="8dp"
+        android:hint="Local do alerta"/>
+
+    <EditText
+        android:id="@+id/et_fb_descricao"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/et_fb_localAlerta"
+        android:layout_marginTop="8dp"
+        android:hint="Descrição do Alerta"/>
+
+    <Button
+        android:id="@+id/bt_fb_enviar"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fb_descricao"
+        android:layout_marginTop="8dp"
+        android:text="Enviar Feedback"/>
+
+
+</RelativeLayout>

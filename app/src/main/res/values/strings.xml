@@ -1,36 +1,35 @@
 <resources>
-    <string name="app_name">PalmSchool</string>
+    <string name="app_name">Vá seguro!</string>
+    <string name="user_name">Mayane Maia</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_maps">Vá seguro!</string>
+    <string name="nav_content">Contatos</string>
+    <string name="nav_settings">Configurações</string>
+    <string name="nav_logout">Sair</string>
+    <string name="dialog_wait">Por favor, aguarde...</string>
+    <string name="app_description"></string>
 
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_cadastro_pessoas">CadastroPessoasActivity</string>
-    <string name="title_activity_cadastro_aluno">CadastroAlunoActivity</string>
-    <string name="title_activity_cadastro_funcionario">CadastroFuncionarioActivity</string>
-    <string name="title_activity_cadastro_livro">CadastroLivroActivity</string>
-    <string name="title_activity_cadastro_disciplina">CadastroDisciplinaActivity</string>
-    <string name="title_activity_cadastro_aluno2">CadastroAlunoActivity2</string>
-    <string name="title_activity_cadastro_funcionario2">CadastroFuncionarioActivity2</string>
-    <string name="title_activity_cadastro_professor">CadastroProfessorActivity</string>
-    <string name="title_activity_cadastro_professor2">CadastroProfessorActivity2</string>
-    <string name="title_activity_list_aluno">ListAlunoActivity</string>
-    <string name="title_activity_list_livro">ListLivroActivity</string>
-    <string name="title_activity_list_disciplina">ListDisciplinaActivity</string>
-    <string name="title_activity_list_professor">ListProfessorActivity</string>
-    <string name="title_activity_list_funcionario">ListFuncionarioActivity</string>
-    <string name="title_activity_notas_faltas">NotasFaltasActivity</string>
-    <string name="title_activity_emprestimo_livro">EmprestimoLivroActivity</string>
-    <string name="title_activity_matricula">MatriculaActivity</string>
-    <string name="title_activity_list_disciplina_matricula">ListDisciplinaMatriculaActivity</string>
-    <string name="title_activity_list_disciplina_aluno">ListDisciplinaAlunoActivity</string>
-    <string name="title_activity_boletim">BoletimActivity</string>
-    <string name="title_activity_visualizar_nota_disciplina">VisualizarNotaDisciplinaActivity
-    </string>
-    <string name="title_activity_inicio_livro">InicioLivroActivity</string>
-    <string name="title_activity_emprestar_livro">EmprestarLivroActivity</string>
-    <string name="title_activity_senha_acesso_boletim">SenhaAcessoBoletimActivity</string>
-    <string name="title_activity_acesso_atribuir_notas">AcessoAtribuirNotasActivity</string>
-    <string name="title_activity_acesso_bibliotecario">AcessoBibliotecarioActivity</string>
 
+    <string name="SSI_number">081998182982</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gmaps">Vá Seguro!</string>
+    <string name="title_activity_destination">Destino</string>
+    <string name="title_activity_preferences">Configurações</string>
+    <string name="title_activity_add_home">Adicionar Casa</string>
+    <string name="title_activity_add_work">Adicionar Trabalho</string>
+    <string name="title_activity_cadastro_usuario">CadastroUsuarioActivity</string>
+    <string name="title_activity_usuario">UsuarioActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_place_auto_complete">PlaceAutoCompleteActivity</string>
+    <string name="title_activity_cadastro_guardiao">CadastroGuardiaoActivity</string>
+    <string name="title_activity_cadastro_guardians">CadastroGuardiansActivity</string>
+    <string name="title_activity_cadastro_estatistica">CadastroEstatisticaActivity</string>
+    <string name="title_activity_cadastro_bo">CadastroBOActivity</string>
+    <string name="title_activity_cadastro_feedback">CadastroFeedbackActivity</string>
+    <string name="title_activity_cadastro_rota">CadastroRotaActivity</string>
 </resources>
