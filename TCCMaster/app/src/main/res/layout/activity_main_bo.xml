@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_bo_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="id"/>
+
+        <EditText
+            android:id="@+id/et_bo_tipoOcorrencia"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="Tipo"/>
+        <EditText
+            android:id="@+id/et_bo_rua"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_bo_tipoOcorrencia"
+            android:layout_marginTop="8dp"
+            android:hint="Rua"/>
+        <EditText
+            android:id="@+id/et_bo_cep"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_bo_rua"
+            android:layout_marginTop="8dp"
+            android:hint="CEP"/>
+        <EditText
+            android:id="@+id/et_bo_bairro"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_bo_cep"
+            android:layout_marginTop="8dp"
+            android:hint="Bairro"/>
+        <EditText
+            android:id="@+id/et_bo_uf"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_bo_bairro"
+            android:layout_marginTop="8dp"
+            android:hint="UF"/>
+        <EditText
+            android:id="@+id/et_bo_dataOcorrencia"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_bo_uf"
+            android:layout_marginTop="8dp"
+            android:hint="Data"/>
+        <EditText
+            android:id="@+id/et_bo_descricaoAcontecido"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/et_bo_dataOcorrencia"
+            android:layout_marginTop="8dp"
+            android:hint="Descrição"/>
+        <EditText
+            android:id="@+id/et_bo_descricaoPessoasEnvolvidas"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/et_bo_descricaoAcontecido"
+            android:layout_marginTop="8dp"
+            android:hint="Desc. Pessoas"/>
+        <EditText
+            android:id="@+id/et_bo_quantidadeCoisasRoubadas"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_bo_descricaoPessoasEnvolvidas"
+            android:layout_marginTop="8dp"
+            android:hint="Qtd roubadas"/>
+        <EditText
+            android:id="@+id/et_bo_cpfUsu"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_bo_quantidadeCoisasRoubadas"
+            android:layout_marginTop="8dp"
+            android:hint="CPF USER"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_bo_cpfUsu"
+            android:text="add"
+            android:id="@+id/send_btn_bo"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/send_btn_bo"
+            android:layout_marginTop="8dp"
+            android:text="User"
+            android:id="@+id/bo_btn" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bo_btn"
+            android:text="Update"
+            android:id="@+id/update_btn_bo"/>
+        <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_btn_bo"
+        android:text="Delete"
+        android:id="@+id/delete_btn_bo"
+        />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/delete_btn_bo"
+            android:text="Enviar BO"
+            android:id="@+id/enviarBO_btn_bo"
+            />
+
+    </RelativeLayout>
+</ScrollView>

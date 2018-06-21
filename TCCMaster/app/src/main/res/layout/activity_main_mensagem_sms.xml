@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_mensagemSms_nome_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="id"/>
+
+        <EditText
+            android:id="@+id/et_mensagemSms_texto"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="Texto"/>
+        <EditText
+            android:id="@+id/et_mensagemSms_tempo_para_enviar_primeiro_alerta"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_mensagemSms_texto"
+            android:layout_marginTop="8dp"
+            android:hint="Tempo Alerta"/>
+        <EditText
+            android:id="@+id/et_mensagemSms_intervalo_tempo_mensagem"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_mensagemSms_tempo_para_enviar_primeiro_alerta"
+            android:layout_marginTop="8dp"
+            android:hint="Intervalo"/>
+        <EditText
+            android:id="@+id/et_mensagemSms_tipo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_mensagemSms_intervalo_tempo_mensagem"
+            android:layout_marginTop="8dp"
+            android:hint="Tipo"/>
+        <EditText
+            android:id="@+id/et_mensagemSms_data"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_mensagemSms_tipo"
+            android:layout_marginTop="8dp"
+            android:hint="Data"/>
+        <EditText
+            android:id="@+id/et_mensagemSms_horario"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_mensagemSms_data"
+            android:layout_marginTop="8dp"
+            android:hint="Horário"/>
+        <EditText
+            android:id="@+id/et_mensagemSms_latitude"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_mensagemSms_horario"
+            android:layout_marginTop="8dp"
+            android:hint="Latitude"/>
+        <EditText
+            android:id="@+id/et_mensagemSms_longitude"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_mensagemSms_latitude"
+            android:layout_marginTop="8dp"
+            android:hint="Longitude"/>
+        <EditText
+            android:id="@+id/et_mensagemSms_origem"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_mensagemSms_longitude"
+            android:layout_marginTop="8dp"
+            android:hint="Origem"/>
+
+        <EditText
+            android:id="@+id/et_mensagemSms_destino"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_mensagemSms_origem"
+            android:layout_marginTop="8dp"
+            android:hint="Destino"/>
+        <EditText
+            android:id="@+id/et_mensagemSms_remetente"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_mensagemSms_destino"
+            android:layout_marginTop="8dp"
+            android:hint="Remetente"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_mensagemSms_remetente"
+            android:text="add"
+            android:id="@+id/send_btn_sms"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/send_btn_sms"
+            android:layout_marginTop="8dp"
+            android:text="User"
+            android:id="@+id/sms_btn" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sms_btn"
+            android:text="Update"
+            android:id="@+id/update_btn_sms"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/update_btn_sms"
+            android:text="Delete"
+            android:id="@+id/delete_btn_sms"
+            />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/delete_btn_sms"
+            android:text="Enviar SMS"
+            android:id="@+id/enviarSms_btn_sms"
+            />
+
+    </RelativeLayout>
+</ScrollView>

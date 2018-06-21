@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contatos"
+            android:icon="@drawable/phone"
+            android:title="@string/nav_content" />
+        <item
+            android:id="@+id/nav_usuer"
+            android:icon="@drawable/avatar"
+            android:title="Usuário" />
+        <item
+            android:id="@+id/nav_guardiao"
+            android:icon="@drawable/angel"
+            android:title="Guardiões" />
+        <item
+            android:id="@+id/nav_relatório"
+            android:icon="@drawable/contract"
+            android:title="Relatório" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/chat"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_Email"
+            android:icon="@drawable/mail"
+            android:title="Email" />
+        <item
+            android:id="@+id/nav_SMS"
+            android:icon="@drawable/smartphone"
+            android:title="SMS" />
+        <item
+            android:id="@+id/nav_bo"
+            android:icon="@drawable/security"
+            android:title="BO" />
+        <item
+            android:id="@+id/nav_rota"
+            android:icon="@drawable/route"
+            android:title="Rota" />
+        <item
+            android:id="@+id/nav_estatistica"
+            android:icon="@drawable/graph"
+            android:title="Estatística" />
+        <item
+            android:id="@+id/nav_preferências"
+            android:icon="@drawable/settings"
+            android:title="@string/nav_settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/nav_logout" />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Vá seguro!</string>
+    <string name="user_name">Mayane Maia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_maps">Vá seguro!</string>
+    <string name="nav_content">Contatos</string>
+    <string name="nav_settings">Configurações</string>
+    <string name="nav_logout">Sair</string>
+    <string name="dialog_wait">Por favor, aguarde...</string>
+    <string name="app_description"></string>
+
+
+    <string name="SSI_number">081998182982</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gmaps">Vá Seguro!</string>
+    <string name="title_activity_destination">Destino</string>
+    <string name="title_activity_preferences">Configurações</string>
+    <string name="title_activity_add_home">Adicionar Casa</string>
+    <string name="title_activity_add_work">Adicionar Trabalho</string>
+    <string name="title_activity_cadastro_usuario">CadastroUsuarioActivity</string>
+    <string name="title_activity_usuario">UsuarioActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_place_auto_complete">PlaceAutoCompleteActivity</string>
+    <string name="title_activity_cadastro_guardiao">CadastroGuardiaoActivity</string>
+    <string name="title_activity_cadastro_guardians">CadastroGuardiansActivity</string>
+    <string name="title_activity_cadastro_estatistica">CadastroEstatisticaActivity</string>
+    <string name="title_activity_cadastro_bo">CadastroBOActivity</string>
+    <string name="title_activity_cadastro_feedback">CadastroFeedbackActivity</string>
+    <string name="title_activity_cadastro_rota">CadastroRotaActivity</string>
+</resources>

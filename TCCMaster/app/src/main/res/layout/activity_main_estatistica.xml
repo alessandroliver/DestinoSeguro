@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_estatistica_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="id"/>
+
+        <EditText
+            android:id="@+id/et_estatistica_numeroAlertas"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="Alertas"/>
+        <EditText
+            android:id="@+id/et_estatistica_porcentagemMulheresAlertas"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_estatistica_numeroAlertas"
+            android:layout_marginTop="8dp"
+            android:hint="Mulheres Alertas"/>
+        <EditText
+            android:id="@+id/et_estatistica_porcentagemHomensAlertas"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_estatistica_porcentagemMulheresAlertas"
+            android:layout_marginTop="8dp"
+            android:hint="Homens Alertas"/>
+        <EditText
+            android:id="@+id/et_estatistica_horarioDeMaisAlertas"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_estatistica_porcentagemHomensAlertas"
+            android:layout_marginTop="8dp"
+            android:hint="Horario Alertas"/>
+        <EditText
+            android:id="@+id/et_estatistica_cidadeDeMaisAlertas"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_estatistica_horarioDeMaisAlertas"
+            android:layout_marginTop="8dp"
+            android:hint="Cidade Alertas"/>
+        <EditText
+            android:id="@+id/et_estatistica_bairroDeMaisAlertas"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_estatistica_cidadeDeMaisAlertas"
+            android:layout_marginTop="8dp"
+            android:hint="Bairros Alertas"/>
+        <EditText
+            android:id="@+id/et_estatistica_dateMaisAlertas"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_estatistica_bairroDeMaisAlertas"
+            android:layout_marginTop="8dp"
+            android:hint="Data Alertas"/>
+        <EditText
+            android:id="@+id/et_estatistica_modoMaisAlerta"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_estatistica_dateMaisAlertas"
+            android:layout_marginTop="8dp"
+            android:hint="Modo Alertas"/>
+        <EditText
+            android:id="@+id/et_estatistica_horarioMenosAlertas"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_estatistica_modoMaisAlerta"
+            android:layout_marginTop="8dp"
+            android:hint="Horário -"/>
+
+        <EditText
+            android:id="@+id/et_estatistica_numerosBOfeitos"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_estatistica_horarioMenosAlertas"
+            android:layout_marginTop="8dp"
+            android:hint="BO Feitos"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_estatistica_numerosBOfeitos"
+            android:text="add"
+            android:id="@+id/send_btn_estatistica"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/send_btn_estatistica"
+            android:layout_marginTop="8dp"
+            android:text="Estatistica"
+            android:id="@+id/estatistica_btn" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/estatistica_btn"
+            android:text="Update"
+            android:id="@+id/update_btn_estatistica"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/update_btn_estatistica"
+            android:text="Delete"
+            android:id="@+id/delete_btn_estatistica"
+            />
+
+    </RelativeLayout>
+</ScrollView>

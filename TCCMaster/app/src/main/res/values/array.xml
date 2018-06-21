@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listentries">
+        <item>Andando</item>
+        <item>Dirigindo</item>
+        <item>Pedalando</item>
+        <item>Transporte Público</item>
+    </string-array>
+    <string-array name="listvalues">
+        <item>"walking"</item>
+        <item>"driving"</item>
+        <item>"bicycling"</item>
+        <item>"transit"</item>
+    </string-array>
+
+    <!--Itens pra popular o listpreference-->
+</resources>

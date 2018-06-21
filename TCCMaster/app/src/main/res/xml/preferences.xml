@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:preference="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <EditTextPreference
+        android:key="mensagem_ok"
+        android:title="Mensagem Ok"
+        android:inputType="text"
+        android:dialogMessage="Digite a mensagem"
+        android:dialogTitle="Alterar mensagem Ok"
+        android:negativeButtonText="Cancelar"
+        android:positiveButtonText="Salvar"
+        />
+    <EditTextPreference
+        android:key="mensagem_sos"
+        android:title="Mensagem SOS"
+        android:inputType="text"
+        android:dialogMessage="Digite a mensagem"
+        android:dialogTitle="Alterar mensagem SOS"
+        android:negativeButtonText="Cancelar"
+        android:positiveButtonText="Salvar" />
+    <EditTextPreference
+        android:key="email_to"
+        android:title="Email para notificações"
+        android:inputType="textEmailAddress"
+        android:dialogMessage="Digite o email"
+        android:dialogTitle="Alterar email de notificações"
+        android:negativeButtonText="Cancelar"
+        android:positiveButtonText="Salvar" />
+    <SwitchPreference
+        android:key="ativar_locais_perigosos"
+        android:title="Mostrar locais perigosos"
+        android:switchTextOff="OFF"
+        android:switchTextOn="ON"
+        android:defaultValue="false"
+        android:summaryOff="Os locais perigosos não aparecerão"
+        android:summaryOn="Será mostrado os locais perigosos"
+        />
+    <com.if1001exemplo1.tccvaseguro.old.NumberPickerPreference
+        android:key="time_send_alert"
+        android:title="Tempo de envio de alerta"
+        android:defaultValue="40" />
+
+    <com.if1001exemplo1.tccvaseguro.old.NumberPickerPreference
+        android:key="time_send_email"
+        android:title="Tempo de envio de e-mails"
+        android:defaultValue="40" />
+
+    <PreferenceCategory
+        android:title="Favoritos"
+        android:textStyle="italic"
+        android:key="pref_key_storage_settings">
+        <ListPreference
+            android:key="pref_key_list"
+            android:title="Transporte preferencial"
+            android:summary="ListPreference summary"
+            android:entries="@array/listentries"
+            android:entryValues="@array/listvalues" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Configurações avançadas"
+        android:textStyle="italic"
+        android:key="pref_key_storage_settings2">
+            <Preference
+                android:title="Apagar Histórico"
+                android:key="bt_apagar_historico">
+            </Preference>
+
+    </PreferenceCategory>
+</PreferenceScreen>
